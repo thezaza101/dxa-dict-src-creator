@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+    <Reference Include="DXANET.dll">
+      <HintPath>DXANET.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+    </Reference>
+  </ItemGroup>
+
+</Project>
